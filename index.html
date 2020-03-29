@@ -16,124 +16,146 @@
       <p class="mega bold">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
     <form class="gutter-1-2 pad-t-2">
-      <fieldset>
+      <fieldset class="pad-b">
         <legend class="pad-b tera bold">Personal details</legend>
-        <div class="pad-t-1-2">
-          <label for="name">Full name</label>
-          <input type="text" id="name" required>
-          <i class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</i>
+        <div class="grid grid-stretch">
+          <div class="pad-t-1-2 unit xs-1 s-1 m-1-2 pad-right-m-l">
+            <label for="name">Full name</label>
+            <input class="" type="text" id="name" required>
+            <i class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</i>
+          </div>
+          <div class="pad-t pad-b-1-4 unit xs-1 s-1 m-1-2 pad-left-m-l">
+            <label for="nickname">What should we call you?</label>
+            <input class="" type="text" id="nickname" value="" required>
+            <i class="italic micro">What all your friends call you, e.g. “Liz”.</i>
+          </div>
         </div>
-        <div class="pad-t pad-b-1-4">
-          <label for="nickname">What should we call you?</label>
-          <input type="text" id="nickname" value="" required>
-          <i class="italic micro">What all your friends call you, e.g. “Liz”.</i>
+        <div class="grid">
+          <div class="pad-t pad-b-1-8 unit xs-1 s-1 m-1-2 pad-right-m-l">
+            <label for="date">Date of birth</label>
+            <input class="" type="date" id="date" value="" required>
+          </div>
+          <div class="pad-t pad-b-1-8 unit xs-1 s-1 m-1-2 pad-left-m-l">
+            <label for="size">T-shirt size</label>
+            <select class="" id="size">
+              <option>Select a t-shirt size</option>
+              <option>Fitted: XS</option>
+              <option>Fitted: S</option>
+              <option>Fitted: M</option>
+              <option>Fitted: L</option>
+              <option>Fitted: XL</option>
+              <option>Straight-cut: XS</option>
+              <option>Straight-cut: S</option>
+              <option>Straight-cut: M</option>
+              <option>Straight-cut: L</option>
+              <option>Straight-cut: XL</option>
+            </select>
+          </div>
         </div>
-        <div class="pad-t pad-b-1-8">
-          <label for="date">Date of birth</label>
-          <input type="date" id="date" value="" required>
-        </div>
-        <div class="pad-t pad-b-1-8">
-          <label for="size">T-shirt size</label>
-          <select id="size">
-            <option>Select a t-shirt size</option>
-            <option>Fitted: XS</option>
-            <option>Fitted: S</option>
-            <option>Fitted: M</option>
-            <option>Fitted: L</option>
-            <option>Fitted: XL</option>
-            <option>Straight-cut: XS</option>
-            <option>Straight-cut: S</option>
-            <option>Straight-cut: M</option>
-            <option>Straight-cut: L</option>
-            <option>Straight-cut: XL</option>
-          </select>
-        </div>
-        <div class="pad-t pad-b-1-2">
-          <label for="email">Email</label>
-          <input type="email" id="email" value="" required>
-        </div>
-        <div class="pad-t-1-2 pad-b-1-2">
-          <label for="tel">Phone number<i class="green"> (optional)</i></label>
-          <input type="tel" id="tel" value="">
+        <div class="grid">
+          <div class="pad-t pad-b-1-2 unit xs-1 s-1 m-1-2 pad-right-m-l">
+            <label for="email">Email</label>
+            <input class="" type="email" id="email" value="" required>
+          </div>
+          <div class="pad-t-1-2 unit xs-1 s-1 m-1-2 pad-left-m-l">
+            <label for="tel">Phone number<i class="green"> (optional)</i></label>
+            <input class="" type="tel" id="tel" value="">
+          </div>
         </div>
       </fieldset>
       <hr>
       <fieldset>
         <legend class="pad-b tera bold pad-t">Address</legend>
-        <div class="pad-t-1-2 pad-b">
-          <label for="street">Street address</label>
-          <input type="text" id="street" value="" required>
+        <div class="grid">
+          <div class="pad-t-1-2 pad-b unit xs-1 s-1 m-1-2 pad-right-m-l">
+            <label for="street">Street address</label>
+            <input class="" type="text" id="street" value="" required>
+          </div>
+          <div class="pad-t-1-2 pad-b unit xs-1 s-1 m-1-2 pad-left-m-l">
+            <label for="city">City</label>
+            <input class="" type="text" id="city" value="">
+          </div>
         </div>
-        <div class="pad-t-1-2 pad-b">
-          <label for="city">City</label>
-          <input type="text" id="city" value="">
-        </div>
-        <div class="pad-t pad-b">
-          <label for="province">Province</label>
-          <select id="province">
-            <option>Select a province</option>
-            <option>Alberta</option>
-            <option>British Columbia</option>
-            <option>Manitoba</option>
-            <option>New Brunswick</option>
-            <option>Newfoundland & Labrador</option>
-            <option>Northwest Territories</option>
-            <option>Nova Scotia</option>
-            <option>Nunavut</option>
-            <option>Ontario</option>
-            <option>Prince Edward Island</option>
-            <option>Québec</option>
-            <option>Saskatchewan</option>
-            <option>Yukon</option>
-          </select>
-        </div>
-        <div class="pad-t-1-2 pad-b">
-          <label for="postal">Postal code</label>
-          <input type="text" id="postal" value="">
+        <div class="grid">
+          <div class="pad-t-1-2 pad-b unit xs-1 s-1 m-1-2 pad-right-m-l">
+            <label for="province">Province</label>
+            <select class="" id="province">
+              <option>Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="pad-t-1-2 pad-b unit xs-1 s-1 m-1-2 pad-left-m-l">
+            <label for="postal">Postal code</label>
+            <input type="text" id="postal" value="">
+          </div>
         </div>
       </fieldset>
       <hr>
       <fieldset>
         <legend class="pad-b-1-4 pad-t giga bold">What activities are you interested in helping with?</legend>
-        <input type="checkbox" id="activity1" value="">
-        <label class="pad-b-1-4" for="activity1">Digging holes</label><br>
-        <input type="checkbox" id="activity2" value="">
-        <label class="pad-b-1-4" for="activity2">Getting dirty</label><br>
-        <input type="checkbox" id="activity3" value="">
-        <label class="pad-b-1-4" for="activity3">Lifting heavy objects</label><br>
-        <input type="checkbox" id="activity4" value="">
-        <label class="pad-b-1-4" for="activity4">Driving people</label><br>
-        <input type="checkbox" id="activity5" value="">
-        <label class="pad-b-1-4" for="activity5">Transporting trees</label><br>
-        <input type="checkbox" id="activity6" value="">
-        <label class="pad-b-1-4" for="activity6">Taking photos</label><br>
-        <input type="checkbox" id="activity7" value="">
-        <label class="pad-b-1-4" for="activity7">Online publishing</label><br>
-        <input type="checkbox" id="activity8" value="">
-        <label class="pad-b-1-4" for="activity8">Managing people</label><br>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2">
+            <input type="checkbox" id="activity1" value="">
+            <label class="pad-b-1-4" for="activity1">Digging holes</label><br>
+            <input type="checkbox" id="activity2" value="">
+            <label class="pad-b-1-4" for="activity2">Getting dirty</label><br>
+            <input type="checkbox" id="activity3" value="">
+            <label class="pad-b-1-4" for="activity3">Lifting heavy objects</label><br>
+            <input type="checkbox" id="activity4" value="">
+            <label class="pad-b-1-4" for="activity4">Driving people</label><br>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2">
+            <input type="checkbox" id="activity5" value="">
+            <label class="pad-b-1-4" for="activity5">Transporting trees</label><br>
+            <input type="checkbox" id="activity6" value="">
+            <label class="pad-b-1-4" for="activity6">Taking photos</label><br>
+            <input type="checkbox" id="activity7" value="">
+            <label class="pad-b-1-4" for="activity7">Online publishing</label><br>
+            <input type="checkbox" id="activity8" value="">
+            <label class="pad-b-1-4" for="activity8">Managing people</label><br>
+          </div>
+        </div>
       </fieldset>
       <fieldset class="pad-b">
         <legend class="pad-b-1-4 pad-t tera bold">Do you have any experience with the following?</legend>
-        <input type="checkbox" id="experience1" value="">
-        <label class="pad-b-1-4" for="experience1">Shovels</label><br>
-        <input type="checkbox" id="experience2" value="">
-        <label class="pad-b-1-4" for="experience2">Hand-held GPS</label><br>
-        <input type="checkbox" id="experience3" value="">
-        <label class="pad-b-1-4" for="experience3">Writing & blogging</label><br>
-        <input type="checkbox" id="experience4" value="">
-        <label class="pad-b-1-4" for="experience4">Photography</label><br>
-        <input type="checkbox" id="experience5" value="">
-        <label class="pad-b-1-4" for="experience5">Trail & hill climbing</label><br>
-        <input type="checkbox" id="experience6" value="">
-        <label class="pad-b-1-4" for="experience6">Bush craft</label><br>
-        <input type="checkbox" id="experience7" value="">
-        <label class="pad-b-1-4" for="experience7">ATVs</label><br>
-        <input type="checkbox" id="experience8" value="">
-        <label class="pad-b-1-4" for="experience8">Plant identification</label><br>
-        <input type="checkbox" id="experience9" value="">
-        <label class="pad-b-1-4" for="experience9">Special event planning</label><br>
-        <input type="checkbox" id="experience10" value="">
-        <label class="pad-b-1-2" for="experience10">Speaking to groups</label><br>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2">
+            <input type="checkbox" id="experience1" value="">
+            <label class="pad-b-1-4" for="experience1">Shovels</label><br>
+            <input type="checkbox" id="experience2" value="">
+            <label class="pad-b-1-4" for="experience2">Hand-held GPS</label><br>
+            <input type="checkbox" id="experience3" value="">
+            <label class="pad-b-1-4" for="experience3">Writing & blogging</label><br>
+            <input type="checkbox" id="experience4" value="">
+            <label class="pad-b-1-4" for="experience4">Photography</label><br>
+            <input type="checkbox" id="experience5" value="">
+            <label class="pad-b-1-4" for="experience5">Trail & hill climbing</label><br>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2">
+            <input type="checkbox" id="experience6" value="">
+            <label class="pad-b-1-4" for="experience6">Bush craft</label><br>
+            <input type="checkbox" id="experience7" value="">
+            <label class="pad-b-1-4" for="experience7">ATVs</label><br>
+            <input type="checkbox" id="experience8" value="">
+            <label class="pad-b-1-4" for="experience8">Plant identification</label><br>
+            <input type="checkbox" id="experience9" value="">
+            <label class="pad-b-1-4" for="experience9">Special event planning</label><br>
+            <input type="checkbox" id="experience10" value="">
+            <label class="pad-b-1-2" for="experience10">Speaking to groups</label><br>
+          </div>
+        </div>
       </fieldset>
       <hr>
       <fieldset>

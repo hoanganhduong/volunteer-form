@@ -34,7 +34,6 @@ hr {
   opacity: 0.5;
 }
 
-
 fieldset {
   border: 0;
 }
@@ -47,4 +46,20 @@ fieldset {
   width: 7em;
   margin: 0 auto;
   display: block;
+}
+
+@media only screen and (min-width: 36em) {
+
+.pad-left-m-l {
+  padding-left: .75rem;
+}
+
+.pad-right-m-l {
+  padding-right: .75rem;
+}
+
+h1 {
+  font: 1.4rem;
+}
+
 }
