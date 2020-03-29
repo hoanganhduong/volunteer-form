@@ -2,6 +2,49 @@ html {
   font-family: 'Noto Serif', serif;
 }
 
-legend {
-  border: white;
+header, footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border: 0;
+}
+
+header > h1 {
+  margin: 0;
+}
+
+.green {
+  color: #70ad55;
+}
+
+input, select, textarea {
+  border-color: #6e8c62;
+}
+
+textarea {
+  height: 10em;
+}
+
+hr {
+  border-color: #70ad55;
+  opacity: 0.5;
+}
+
+
+fieldset {
+  border: 0;
+}
+
+.pad-left {
+  padding-left: 2rem;
+}
+
+.center {
+  width: 7em;
+  margin: 0 auto;
+  display: block;
 }
