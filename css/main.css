@@ -7,6 +7,10 @@ header, footer {
   color: #fff;
 }
 
+.max-width {
+  max-width: 38em;
+}
+
 .btn {
   background-color: #6e8c62;
   color: #fff;
@@ -48,7 +52,7 @@ fieldset {
   display: block;
 }
 
-@media only screen and (min-width: 36em) {
+@media only screen and (min-width: 38em) {
 
 .pad-left-m-l {
   padding-left: .75rem;
@@ -60,6 +64,11 @@ fieldset {
 
 h1 {
   font: 1.4rem;
+}
+
+.padding-m-l {
+  padding-top: .5rem;
+  padding-bottom: 1rem;
 }
 
 }
