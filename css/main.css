@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Seri", serif;
 }
 
 header, footer {
@@ -35,7 +35,7 @@ textarea {
 
 hr {
   border-color: #70ad55;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 fieldset {
@@ -54,21 +54,21 @@ fieldset {
 
 @media only screen and (min-width: 38em) {
 
-.pad-left-m-l {
+  .pad-left-m-l {
   padding-left: .75rem;
-}
+  }
 
-.pad-right-m-l {
+  .pad-right-m-l {
   padding-right: .75rem;
-}
+  }
 
-h1 {
+  h1 {
   font: 1.4rem;
-}
+  }
 
-.padding-m-l {
+  .padding-m-l {
   padding-top: .5rem;
   padding-bottom: 1rem;
-}
+  }
 
 }
