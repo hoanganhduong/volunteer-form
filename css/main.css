@@ -55,20 +55,20 @@ fieldset {
 @media only screen and (min-width: 38em) {
 
   .pad-left-m-l {
-  padding-left: .75rem;
+    padding-left: .75rem;
   }
 
   .pad-right-m-l {
-  padding-right: .75rem;
+    padding-right: .75rem;
   }
 
   h1 {
-  font: 1.4rem;
+    font: 1.4rem;
   }
 
   .padding-m-l {
-  padding-top: .5rem;
-  padding-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
   }
 
 }
